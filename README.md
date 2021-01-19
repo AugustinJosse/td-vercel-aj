@@ -59,5 +59,26 @@ Puis on push les modifs sur l'environnement PRODUCTION.
 
 19. Une pull-request est une proposition de modification du projet. 
 Les membres du groupe travaillant sur le même projet récupère ce dernier.
-Ils modifie le projet sur la nouvelle branche et envoient des pull-request pour envoyer ces modifications aux autres membres du projet.
+Ils modifient le projet sur la nouvelle branche et envoient des pull-request pour envoyer ces modifications aux autres membres du projet.
+
+Vercel deploie la pull-request dans un environnement PREVIEW.
+
+20. Vercel deploie la pull-request dans un environnement PRODUCTION.
+
+21. L'environnement de PRODUCTION correspond à la branche main.
+
+Les pull-request permettent de pouvoir travailler à plusieurs sur un même projet. 
+Ils permettent à un développeur de prévenir les membres de son équipe qu'il a terminé une fonctionnalité.
+On peut des versions temporaires du projet. Ils permettent de tester le bon fonctionnement du projet avant le deploiement.
+On pêut réaliser des tests avant de merge.
+
+Workflow d'une feature : 
+- modification sur la branche de développement dans le working tree 
+- commit et push des modifs sur la branche de développement de Git 
+- pull-request et merge de la branche de developpement vers la branche de production 
+- pull de la branche de production du depot vers la branche de production du working tree
+
+22. Un serverless : quand un fournisseur de cloud fournit des ressources aux application à la demande. 
+Il utilise des serveurs qui ne sont pas géré par le devellopeur, ce qui leur facilite la tâche.
+Cela facilite le passage d'une application en production.
 
