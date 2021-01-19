@@ -55,5 +55,9 @@ Autrement dit, on developpe avec l'environnement DEVELOPMENT.
 On fait les tests avec l'environnement PREVIEW.
 Puis on push les modifs sur l'environnement PRODUCTION.
 
-17.
+18. https://td-vercel-aj.vercel.app/
+
+19. Une pull-request est une proposition de modification du projet. 
+Les membres du groupe travaillant sur le même projet récupère ce dernier.
+Ils modifie le projet sur la nouvelle branche et envoient des pull-request pour envoyer ces modifications aux autres membres du projet.
 
